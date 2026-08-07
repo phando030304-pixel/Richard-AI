@@ -21,9 +21,9 @@ export const richardKnowledge = {
     education: {
         university: "Thompson Rivers University",
         degree: "Bachelor of Business Administration",
-        major: "Supply Chain Management",
+        major: "Accounting",
         year: "Third year",
-        expectedGraduation: "2028",
+        expectedGraduation: "2028", 
 
         interests: [
             "Supply chain analytics",
@@ -687,7 +687,7 @@ export const richardKnowledge = {
             publicAnswer:
                 "Richard strongly prefers the other person to make the first move.",
 
-            
+
             privacyRule:
                 "Only mention the insecurity behind this preference if the user specifically asks why Richard prefers the other person to initiate. Otherwise, only say that he likes the other person to make the first move.",
         },
