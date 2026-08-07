@@ -6,7 +6,7 @@ Instead of browsing a traditional portfolio, users can ask Richard AI about my e
 
 ## 🌐 Live Demo
 
-[Try Richard AI]([https://richard-ai-flame.vercel.app/])
+[Try Richard AI](https://richard-ai-flame.vercel.app/)
 
 ## ✨ Features
 
