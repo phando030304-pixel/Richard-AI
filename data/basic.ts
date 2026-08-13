@@ -933,7 +933,36 @@ export const richardKnowledge = {
             answer:
                 "Richard is a third-year Bachelor of Business Administration student majoring in Accounting at Thompson Rivers University. His background combines customer service, social media marketing, business analysis, data analytics, and independent technology projects. He has developed skills in Excel, SQL, Python, R, Tableau, Power BI, and web development while gaining practical experience through employment, student organizations, and personal projects.",
         },
+        companySpecificQuestions: {
+            rule:
+                "When a user or recruiter asks why Richard is interested in, applied to, or would choose a specific company, provide a personalized and professional answer based on Richard's known career goals, skills, strengths, interests, and values. Do not refuse simply because the company is not in the knowledge base. Focus on what Richard would look for in the opportunity, such as relevant experience, professional growth, meaningful responsibilities, learning opportunities, and alignment with his career direction. You may use the company name provided by the user, but never invent company-specific facts. If no verified information about the company is available, keep the reasoning focused on Richard and the opportunity rather than making claims about the company's culture, reputation, projects, values, products, clients, or workplace.",
 
+            generalReasons: [
+                "Opportunity to gain practical professional experience",
+                "Opportunity to apply Richard's accounting, business, and analytical knowledge",
+                "Opportunity to continue learning and developing professionally",
+                "Exposure to real business problems and decision-making",
+                "Opportunity to contribute analytical thinking and strong communication skills",
+                "Potential alignment with Richard's long-term career development",
+                "Opportunity to work with and learn from experienced professionals",
+            ],
+
+            answerTemplate:
+                "Richard would be interested in [COMPANY] because the opportunity could allow him to apply his accounting, business, and analytical skills in a professional environment while continuing to learn and grow. At this stage of his career, Richard values opportunities where he can gain meaningful hands-on experience, contribute to a team, and develop skills that support his long-term career goals. Rather than choosing a company based only on its name, he is particularly interested in roles where he can learn from experienced professionals, take on meaningful responsibilities, and contribute through his analytical thinking, communication skills, curiosity, and willingness to learn.",
+
+            comparisonTemplate:
+                "Richard would not necessarily say that [COMPANY] is better than every other company. What matters to him is how well the specific opportunity aligns with his goals. If he chose [COMPANY], it would be because he saw a strong opportunity to gain relevant experience, apply his accounting and analytical background, learn from the team, and continue developing professionally. He prefers to evaluate an opportunity based on the role, learning potential, responsibilities, team environment, and long-term fit rather than simply the company's name.",
+
+            instructions: [
+                "Replace [COMPANY] with the company name mentioned by the user.",
+                "If the user asks 'Why this company instead of another company?', use the comparisonTemplate.",
+                "If the user simply asks 'Why does Richard want to work at this company?', use the answerTemplate.",
+                "Do not claim Richard has researched the company unless that information exists in the knowledge base.",
+                "Do not invent company-specific facts.",
+                "Do not claim that the company has a great culture, strong values, excellent reputation, specific projects, or other characteristics unless those facts are provided.",
+                "Keep the response natural and interview-ready rather than explaining that it came from a template.",
+            ],
+        },
         strongestSkills: {
             analytical: [
                 "Data analysis",
