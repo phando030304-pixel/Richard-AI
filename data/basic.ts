@@ -23,27 +23,30 @@ export const richardKnowledge = {
         degree: "Bachelor of Business Administration",
         major: "Accounting",
         year: "Third year",
-        expectedGraduation: "2028", 
+        expectedGraduation: "2028",
+        gpa: 3.3,
 
         interests: [
-            "Supply chain analytics",
+            "Accounting",
+            "Finance",
             "Business analytics",
-            "Operations",
-            "Procurement",
             "Data analysis",
+            "Business technology",
             "Artificial intelligence for business",
+            "Operations",
         ],
 
         strongSubjects: [
             "Mathematics",
             "Chemistry",
             "Accounting",
-            "Business-related courses",
-            "Data and analytical subjects",
+            "International Business",
+            "Quantitative and calculation-based courses",
+            "Analytical business courses",
         ],
 
         academicStrengths:
-            "Richard tends to perform well in analytical and numbers-oriented subjects such as mathematics, chemistry, accounting, and courses involving problem solving and analytical thinking.",
+            "Richard tends to perform well in quantitative, analytical, and numbers-oriented subjects such as Mathematics and Accounting, as well as business-focused courses such as International Business. He generally enjoys courses involving calculations, logical reasoning, structured problem-solving, and applying business concepts.",
     },
 
     experience: [
@@ -339,7 +342,6 @@ export const richardKnowledge = {
     personalLife: {
         age: 21,
         dateOfBirth: "December 27, 2004",
-
         sexualOrientation: "Gay",
         relationshipStatus: "Single",
 
@@ -644,7 +646,8 @@ export const richardKnowledge = {
             ],
 
             description:
-                "Richard's ideal partner is someone who is muscular, handsome, funny, caring, honest, and knows how to cook.",
+                "Richard's usual type is someone who is muscular, handsome, funny, caring, honest, and knows how to cook. However, he does not treat this as a strict checklist because attraction can be unpredictable and personality can sometimes matter more than his usual physical preferences.",
+
             perspective:
                 "Richard definitely has a type, but he also believes you never really know who you might end up liking. Sometimes personality wins 😆.",
         },
@@ -685,11 +688,13 @@ export const richardKnowledge = {
             prefersOtherPersonToInitiate: true,
 
             publicAnswer:
-                "Richard strongly prefers the other person to make the first move.",
+                "Richard is not usually the one to make the first move in dating. He strongly prefers the other person to initiate first.",
 
+            deeperContext:
+                "If someone asks specifically why, Richard can be hesitant about initiating because he sometimes overthinks whether the other person is interested.",
 
             privacyRule:
-                "Only mention the insecurity behind this preference if the user specifically asks why Richard prefers the other person to initiate. Otherwise, only say that he likes the other person to make the first move.",
+                "For general questions about whether Richard is proactive in love, only use publicAnswer. Only use deeperContext when the user directly asks why or asks for more detail. Do not mention insecurity, self-worth, or feeling not good enough unless the user explicitly asks for a deeper explanation.",
         },
 
         celebrityCrush: "Nicholas Galitzine",
@@ -810,8 +815,8 @@ export const richardKnowledge = {
         ],
 
         businessAndMarketing: [
-            "Supply chain fundamentals",
-            "Procurement fundamentals",
+            "Accounting fundamentals",
+            "Finance fundamentals",
             "Operations",
             "Social media marketing",
             "Content creation",
@@ -828,8 +833,9 @@ export const richardKnowledge = {
             "Google GenAI SDK",
             "AI application development",
             "Next.js web development",
-            "Supply chain analytics",
+            "Accounting",
             "Business analytics",
+            "Data analytics",
         ],
     },
 
@@ -906,6 +912,271 @@ export const richardKnowledge = {
         },
     ],
 
+    recruiterKnowledge: {
+        academicProfile: {
+            gpa: 3.3,
+            major: "Accounting",
+
+            strongestCourseAreas: [
+                "Mathematics",
+                "Accounting",
+                "International Business",
+                "Quantitative courses",
+                "Analytical business courses",
+            ],
+
+            answer:
+                "Richard currently has a GPA of approximately 3.3. He tends to perform well in quantitative and analytical subjects, particularly Mathematics and Accounting, as well as business-focused courses such as International Business. He generally enjoys courses involving calculations, logical reasoning, structured problem-solving, and applying business concepts.",
+        },
+
+        professionalSummary: {
+            answer:
+                "Richard is a third-year Bachelor of Business Administration student majoring in Accounting at Thompson Rivers University. His background combines customer service, social media marketing, business analysis, data analytics, and independent technology projects. He has developed skills in Excel, SQL, Python, R, Tableau, Power BI, and web development while gaining practical experience through employment, student organizations, and personal projects.",
+        },
+
+        strongestSkills: {
+            analytical: [
+                "Data analysis",
+                "Business analysis",
+                "Problem solving",
+                "Quantitative reasoning",
+                "Data visualization",
+                "Dashboard development",
+                "Attention to detail",
+            ],
+
+            technical: [
+                "Microsoft Excel",
+                "SQL",
+                "Python",
+                "R",
+                "Power BI",
+                "Tableau",
+                "Pandas",
+                "NumPy",
+            ],
+
+            professional: [
+                "Communication",
+                "Teamwork",
+                "Responsibility",
+                "Adaptability",
+                "Time management",
+                "Customer service",
+                "Emotional intelligence",
+            ],
+
+            answer:
+                "Richard combines analytical and technical abilities with strong interpersonal skills. His strengths include data analysis, problem-solving, quantitative thinking, communication, teamwork, adaptability, and learning new technologies independently.",
+        },
+
+        biggestStrengths: {
+            strengths: [
+                "Persistence",
+                "Responsibility",
+                "Emotional intelligence",
+                "Discipline",
+                "Communication",
+                "Adaptability",
+            ],
+
+            answer:
+                "Richard considers persistence, responsibility, and emotional intelligence to be some of his strongest qualities. His persistence can be seen in his commitment to school, fitness, work, technical learning, and independent projects. His work and student roles also require him to be dependable and communicate effectively with different people.",
+        },
+
+        developmentArea: {
+            answer:
+                "One area Richard continues to improve is self-confidence. He can sometimes be overly critical of himself or think too much about negative feedback. He is learning to separate constructive feedback from personal judgment and use criticism as an opportunity to improve.",
+
+            privacyRule:
+                "For recruiter questions, focus on professional growth and improvement. Do not reveal deeper personal insecurities unless the user specifically asks for personal context.",
+        },
+
+        teamwork: {
+            answer:
+                "Richard has experience working in team-oriented environments. At Wendy's, he works with coworkers in a fast-paced customer service setting. At Enactus TRU, he collaborates with the executive team on social media, recruitment, events, and projects. As a TRU Social Media Ambassador, he also works with others while representing the university at events. These experiences have strengthened his communication, adaptability, and reliability as a team member.",
+        },
+
+        communication: {
+            answer:
+                "Communication is one of Richard's interpersonal strengths. His customer service, social media, university event, and student organization experience requires him to interact with many different personalities. He is often complimented for being tactful and easy to communicate with.",
+        },
+
+        emotionalIntelligence: {
+            answer:
+                "Richard considers emotional intelligence one of his strengths. He pays attention to small changes in people's behavior, expressions, and tone, which can help him recognize when someone is uncomfortable or when a communication approach needs to change.",
+        },
+
+        responsibility: {
+            answer:
+                "Richard demonstrates responsibility by balancing university, employment, student involvement, fitness, and independent projects. He values being dependable and generally takes commitments seriously once he accepts them.",
+        },
+
+        persistence: {
+            answer:
+                "Persistence is one of Richard's defining strengths. He tends to stay committed to long-term goals rather than expecting immediate results. This can be seen in his education, consistent fitness routine, employment, technical learning, and portfolio projects.",
+        },
+
+        adaptability: {
+            answer:
+                "Richard usually prefers to plan ahead, but he adapts when circumstances change. If something does not go according to plan, he evaluates the situation and adjusts rather than becoming stuck on the original plan.",
+        },
+
+        timeManagement: {
+            answer:
+                "Richard balances university courses with work, student organizations, fitness, and independent projects. Managing these responsibilities requires planning, prioritization, and the ability to adjust his schedule when circumstances change.",
+        },
+
+        fastPacedEnvironment: {
+            answer:
+                "Richard has substantial experience in fast-paced customer service environments. His restaurant work requires him to manage multiple responsibilities, communicate with coworkers and customers, maintain accuracy, and continue performing during busy periods.",
+        },
+
+        canadianExperience: {
+            hasCanadianExperience: true,
+
+            answer:
+                "Yes. Richard has Canadian work and student involvement experience in Kamloops. He works at Wendy's, serves as a Social Media Ambassador at Thompson Rivers University, and works with Enactus TRU as a Social Media Marketing Manager.",
+        },
+
+        leadershipPotential: {
+            answer:
+                "Richard is interested in leadership and management opportunities as his career develops. His current experience includes contributing to the Enactus TRU executive team, taking responsibility for social media activities, representing TRU as a Social Media Ambassador, and collaborating across different teams.",
+
+            rule:
+                "Do not claim Richard formally managed employees unless that information is explicitly available elsewhere in the knowledge base.",
+        },
+
+        analyticalVsCreative: {
+            answer:
+                "Richard has both analytical and creative strengths. His Accounting studies, quantitative academic strengths, business analysis experience, and data projects reflect his analytical side. Photography, social media, dance, content creation, and Richard AI demonstrate his creative side. He especially enjoys opportunities where the two can overlap.",
+        },
+
+        technicalTools: {
+            dataAndAnalytics: [
+                "Excel",
+                "SQL",
+                "Python",
+                "R",
+                "Tableau",
+                "Power BI",
+                "Pandas",
+                "NumPy",
+            ],
+
+            webAndAI: [
+                "Next.js",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Gemini API",
+                "Google GenAI SDK",
+                "Git",
+                "GitHub",
+                "Vercel",
+            ],
+
+            answer:
+                "Richard's technical toolkit spans analytics and web development. For analytics, he has worked with Excel, SQL, Python, R, Tableau, and Power BI. Through Richard AI, he has also gained hands-on experience with Next.js, React, TypeScript, Tailwind CSS, Gemini API integration, GitHub, and Vercel.",
+        },
+
+        projectsAnswer: {
+            answer:
+                "Richard has completed several analytics projects involving data cleaning, exploratory analysis, visualization, dashboards, and business insights. His projects include Cyclistic Bike-Share Analysis, Bellabeat Smart Device Analysis, HR Attrition Analysis, and NYC Restaurant Food Safety Analysis. He also built Richard AI, an interactive AI portfolio using Next.js, TypeScript, and Google Gemini.",
+        },
+
+        richardAIProject: {
+            whyHeBuiltIt:
+                "Richard already had several data analytics projects, but noticed that analytics portfolios are common and many candidates build strong dashboards. He wanted to complement those projects with something more distinctive and personal.",
+
+            purpose:
+                "Richard AI combines AI, web development, business, data, creativity, and personal branding into an interactive portfolio experience.",
+
+            whatItDemonstrates: [
+                "Independent learning",
+                "Initiative",
+                "Creativity",
+                "Problem solving",
+                "Web development",
+                "AI integration",
+                "Git and GitHub workflow",
+                "Cloud deployment",
+                "Turning an idea into a working product",
+            ],
+
+            recruiterAnswer:
+                "Richard AI is an interactive alternative to a traditional portfolio. Visitors can ask questions about Richard's education, experience, projects, skills, interests, and goals. Building it gave Richard practical experience with Next.js, TypeScript, Google Gemini, GitHub, and Vercel while demonstrating his ability to independently learn and apply new technologies.",
+        },
+
+        whatMakesRichardDifferent: {
+            answer:
+                "Richard's background combines business education, Accounting, quantitative thinking, data analytics, customer-facing experience, social media work, and independent technology projects. He enjoys connecting analytical thinking with communication and creativity rather than limiting himself to only one area.",
+        },
+
+        whyHireRichard: {
+            answer:
+                "Richard can bring analytical thinking, persistence, responsibility, communication skills, adaptability, and curiosity. He has experience working with customers and teams, has developed practical analytical and technology skills outside the classroom, and actively builds projects to apply what he learns. He is still early in his career, but he is motivated to learn, take responsibility, and continue improving.",
+
+            rule:
+                "Keep this answer confident but realistic. Never claim Richard is objectively the best candidate or guarantee future job performance.",
+        },
+
+        workEnvironment: {
+            answer:
+                "Richard works well in collaborative environments where he can continue learning, contribute ideas, solve problems, and take responsibility for his work. He appreciates structure and planning but also values enough flexibility to adapt when circumstances change.",
+        },
+
+        motivation: {
+            answer:
+                "Richard is motivated by progress, financial stability, learning, achieving long-term goals, and eventually being able to support his family while maintaining a comfortable life and healthy work-life balance.",
+        },
+
+        currentCareerDirection: {
+            interests: [
+                "Accounting",
+                "Finance",
+                "Business Analytics",
+                "Data Analytics",
+                "Business Analysis",
+            ],
+
+            answer:
+                "Richard is currently majoring in Accounting while also maintaining a strong interest in analytics and technology. He is particularly interested in opportunities where financial or business knowledge can be combined with data, analysis, technology, and decision-making.",
+        },
+
+        futureGoals: {
+            shortTerm:
+                "Richard wants to continue developing professional experience through internships, co-op opportunities, university studies, and independent projects while strengthening his accounting, analytical, and technical skills.",
+
+            longTerm:
+                "Richard wants to establish a stable career, continue developing professionally, achieve financial security, maintain healthy work-life balance, support his parents, and eventually explore leadership or entrepreneurship opportunities.",
+        },
+
+        learningStyle: {
+            answer:
+                "Richard learns particularly well through hands-on application. Many of his technical skills have been strengthened through projects where he had to research problems, test approaches, troubleshoot errors, and turn what he learned into a working result.",
+        },
+
+        beyondTheResume: {
+            answer:
+                "Outside of academics and work, Richard has a creative side. He used to dance, enjoys photography, music, gaming, cooking, fitness, anime, and technology. He also enjoys experimenting with new ideas simply because he is curious about whether he can make them work.",
+        },
+
+        behavioralQuestionRule:
+            "If a recruiter asks for a specific example of conflict resolution, leadership, failure, difficult feedback, initiative, or problem-solving and no actual event is recorded in RICHARD KNOWLEDGE, say that Richard AI does not currently have a specific example recorded. Never invent a workplace or academic story.",
+
+        recruiterResponseRules: [
+            "Prioritize professional, academic, project, and skill information when the user appears to be a recruiter or employer.",
+            "Use evidence from Richard's actual education, work experience, projects, and student involvement whenever possible.",
+            "Never invent job duties, achievements, grades, awards, leadership authority, or project outcomes.",
+            "Distinguish professional experience from academic and personal project experience.",
+            "Do not claim professional-level experience with a technology merely because Richard has used it in a project.",
+            "Keep recruiter answers confident, concise, and realistic.",
+            "Do not volunteer sensitive personal information such as sexual orientation, dating preferences, relationship status, family details, or private insecurities during recruiter-related conversations.",
+            "If information is unavailable, say so instead of guessing.",
+        ],
+    },
+
     dreamsAndCareer: {
         creativeDreams: [
             "Singer",
@@ -943,19 +1214,20 @@ export const richardKnowledge = {
 
     goals: {
         careerInterests: [
-            "Supply Chain Analyst",
+            "Accounting",
+            "Finance",
             "Business Analyst",
-            "Operations Analyst",
-            "Procurement Analyst",
             "Data Analyst",
+            "Business Analytics",
         ],
 
         shortTermGoals: [
             "Complete and improve the Richard AI project",
             "Improve web development skills",
-            "Build more supply chain analytics projects",
             "Find an internship or co-op opportunity",
+            "Strengthen accounting knowledge",
             "Strengthen Excel, SQL, Power BI, and Python skills",
+            "Build more accounting, finance, and analytics projects",
         ],
 
         longTermGoals: [
@@ -965,7 +1237,7 @@ export const richardKnowledge = {
             "Support his parents financially",
             "Maintain a healthy work-life balance",
             "Use data and technology to solve business problems",
-            "Create useful AI-powered business tools",
+            "Continue developing accounting and analytical skills",
             "Potentially start his own business",
         ],
     },
