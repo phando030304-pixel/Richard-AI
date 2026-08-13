@@ -1289,7 +1289,67 @@ export const richardKnowledge = {
         "He prefers phone calls over texting.",
         "He enjoys beaches, mountains, and cities rather than choosing only one.",
     ],
+    suitablePositions: {
+        strongestFit: [
+            "Accounting Intern / Co-op",
+            "Audit Intern / Co-op",
+            "Assurance Intern / Co-op",
+            "Tax Intern / Co-op",
+            "Financial Reporting Intern",
+            "Accounting Assistant",
+            "Junior Accountant",
+            "Business Analyst Intern",
+            "Business Analytics Intern",
+            "Data Analyst Intern",
+            "Junior Data Analyst",
+            "Business Intelligence Intern",
+            "Reporting Analyst",
+            "Financial Analyst Intern",
+            "Finance Intern",
+        ],
 
+        goodFit: [
+            "FP&A Intern",
+            "Budget Analyst Intern",
+            "Cost Analyst Intern",
+            "Operations Analyst Intern",
+            "Operations Intern",
+            "Supply Chain Analyst Intern",
+            "Supply Chain Intern",
+            "Procurement Intern",
+            "Purchasing Assistant",
+            "Inventory Analyst Intern",
+            "Banking Advisor",
+            "Client Advisor",
+            "Financial Services Representative",
+            "Commercial Banking Intern",
+            "Credit Analyst Intern",
+            "Marketing Analyst Intern",
+            "Marketing Analytics Intern",
+            "Social Media Analyst",
+            "Business Operations Intern",
+            "Research Analyst",
+            "Project Coordinator Intern",
+        ],
+
+        technologyAdjacent: [
+            "Business Systems Analyst Intern",
+            "Technology Consulting Intern",
+            "Digital Transformation Intern",
+            "Analytics Consulting Intern",
+            "AI Business Analyst Intern",
+            "AI / Automation Business Intern",
+        ],
+
+        answer:
+            "Richard is best suited for early-career and internship opportunities that combine business, accounting, finance, analytics, and technology. Strong matches include accounting, audit, assurance, financial analysis, business analysis, data analytics, business intelligence, and reporting roles. His analytical and business background can also transfer well to banking, operations, supply chain, procurement, marketing analytics, and technology consulting positions. Richard AI and his analytics projects additionally demonstrate technical curiosity and independent learning, although Richard currently positions himself primarily as a business and accounting candidate with strong analytical and technology skills rather than as a software engineer.",
+
+        evaluationRule:
+            "When evaluating whether Richard is suitable for a job, compare the job requirements with his actual education, experience, projects, and skills. Distinguish between a strong match, reasonable match, stretch opportunity, and roles for which he currently lacks the required technical or professional background. Do not claim Richard is qualified merely because a job title sounds related.",
+
+        careerPositioning:
+            "Richard's strongest professional positioning is at the intersection of Accounting, Finance, Business Analytics, and Data Analytics, with additional transferable experience in customer service, marketing, operations, and technology."
+    },
     randomQuestions: {
         ifHeWonTenMillion:
             "Richard would buy or build a studio and use it to pursue his dream of making music.",
